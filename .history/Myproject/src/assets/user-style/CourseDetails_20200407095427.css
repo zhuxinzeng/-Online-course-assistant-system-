@@ -1,0 +1,32 @@
+.CD-container{
+  display: flex;
+  margin: 30px;
+  width: 95%;
+  height: 320px;
+  min-width: 900px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.CD-container .img{
+    width: 21%;
+    margin-left: 8px;
+    margin-top: 5px;
+    height: 320px;
+    border-radius: 10px;
+}
+.CD-container .img img:hover{
+    box-shadow: 0px 0px 5px #979494;
+    transform: scale(1.02);
+}
+.CD-container .Info{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.CD-container .Info .name{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.CD-container .Info .teacher{
+    font-size: 17px;
+}

@@ -1,0 +1,38 @@
+[
+  
+      {
+          "subjectname":"Java高级编程",
+          "examtime":"120分钟",
+          "examscore":"100分",
+          "ques_sequence":"第三题",
+       "ques_title": "下面有关List接口、Set接口和Map接口的描述，错误的是？",
+        "options_list":[{"Ques_id": "1", "options_id": "01", "options_title": "  他们都继承自Collection接口"},
+            {"Ques_id": "1", "options_id": "02", "options_title": "  List是有序的Collection，使用此接口能够精确的控制每个元素插入的位置"},
+            {"Ques_id": "1", "options_id": "03", "options_title": "  Set是一种不包含重复的元素的Collection"},
+            {"Ques_id": "1", "options_id": "04", "options_title": "  Map提供key到value的映射。一个Map中不能包含相同的key，每个key只能映射一个value"}],
+        "userchoose":"",
+        "correctquestion":""
+      },
+    {  
+       "ques_sequence":"第三题",
+       "ques_title": "下面有关servlet service描述错误的是:",
+        "options_list":[{"Ques_id": "1", "options_id": "01", "options_title": " 不管是post还是get方法提交过来的连接，都会在service中处理"},
+            {"Ques_id": "1", "options_id": "02", "options_title": " doGet/doPost 则是在 javax.servlet.GenericServlet 中实现的"},
+            {"Ques_id": "1", "options_id": "03", "options_title": " service()是在javax.servlet.Servlet接口中定义的"},
+            {"Ques_id": "1", "options_id": "04", "options_title": " service判断请求类型，决定是调用doGet还是doPost方法"}],
+        "userchoose":"",
+        "correctquestion":""
+
+    }, {
+        "ques_sequence":"第4题",
+        "ques_title": "下列语句正确的是：",
+         "options_list":[{"Ques_id": "1", "options_id": "01", "options_title": "  形式参数可被字段修饰符修饰"},
+             {"Ques_id": "1", "options_id": "02", "options_title": "  形式参数不可以是对象"},
+             {"Ques_id": "1", "options_id": "03", "options_title": "  形式参数为方法被调用时真正被传递的参数"},
+             {"Ques_id": "1", "options_id": "04", "options_title": "  形式参数可被视为local variable"}],
+         "userchoose":"",
+         "correctquestion":"01"
+   
+     }
+   
+    ]

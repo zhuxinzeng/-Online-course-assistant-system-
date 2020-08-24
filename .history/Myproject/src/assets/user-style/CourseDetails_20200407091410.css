@@ -1,0 +1,17 @@
+.CD-container{
+  margin: 30px;
+  width: 95%;
+  height: 320px;
+  min-width: 900px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.CD-container .img{
+    width: 21%;
+    height: 320px;
+    border-radius: 10px;
+}
+.CD-container .img img:hover{
+    box-shadow: 0px 1px 2px;
+    transform: scale(1.03);
+}

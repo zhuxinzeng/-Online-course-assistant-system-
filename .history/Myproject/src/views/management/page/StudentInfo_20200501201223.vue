@@ -1,0 +1,62 @@
+<template>
+  <div class="SI-container">
+    <el-page-header @back="goback" content="学生成绩查看" class="header"></el-page-header>
+    <el-table ref="multipleTable" :data="tableData" tooltip-effect="dark" border>
+      <el-table-column width="210" label="编号" prop="_id"></el-table-column>
+      <el-table-column width="120" label="学号" prop="studentid"></el-table-column>
+      <el-table-column width="120" label="姓名" prop="userName"></el-table-column>
+      <el-table-column width="120" label="性别" prop="sex"></el-table-column>
+      <el-table-column width="120" label="专业" prop="major"></el-table-column>
+      <el-table-column width="180" label="邮箱" prop="email"></el-table-column>
+
+      <el-table-column label="操作">
+        <template slot-scope="scope">
+          <el-button size="mini" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
+          <el-button size="mini" type="danger" @click="handleDelete(scope.$index, scope.row)">删除</el-button>
+        </template>
+      </el-table-column>
+    </el-table>
+    <!-- 分页导航-->
+    <div class="pagination">
+      <el-pagination
+        background
+        layout="total, prev, pager, next"
+        :current-page="query.pageIndex"
+        :page-size="query.pageSize"
+        :total="pageTotal"
+        @current-change="handlePageChange"
+      ></el-pagination>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  data() {
+    return {
+      tableData: []
+    };
+  },
+  created(){
+     
+  },
+  methods: {
+      getresult(){
+          axios({
+              url:url.getstudentresult,
+              method:'post',
+              data:{}
+          }).then(response=>{
+            if(response.data.code == 200 && response.data.message){
+                this.tableData = response.data.message;
+                this.$message.success('获取成功！')
+            }
+          })
+      }
+  }
+};
+</script>
+
+<style>
+</style>template

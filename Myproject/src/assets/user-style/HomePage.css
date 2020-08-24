@@ -1,0 +1,17 @@
+.HP-container{
+    margin: 30px;
+    width: 95%;
+    min-width: 900px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+.HP-container .classlist {
+    display: flex;
+    align-content:space-around;
+    flex-wrap:wrap;
+  }
+  
+  .HP-container .classlist .listrowspace{
+     margin-left: 10%;
+    
+  }

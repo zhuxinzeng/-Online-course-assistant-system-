@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "3",
+        "TEACHER_NAME": "汪流",
+        "TEACHER_COLLEGE": "理学院",
+        "TEACHER_AVATOR": "",
+        "COURSE_ID": "003",
+        "COURSE_NAME": "高等数学",
+        "COURSE_CREDIT": "3",
+        "COURSE_ROOM": "2-101",
+        "COURSE_IMAGE": "",
+        "COURSE_NUMBER": "55",
+        "COURSE_COUNT": "",
+        "PICTURE_PATH": ""
+    }
+]

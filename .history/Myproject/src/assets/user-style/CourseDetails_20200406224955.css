@@ -1,0 +1,13 @@
+.CD-container{
+  margin: 30px;
+  width: 95%;
+  height: 300px;
+  min-width: 900px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.CD-container .img{
+    width: 100px;
+    height: 200px;
+    border: 1px solid red;
+}

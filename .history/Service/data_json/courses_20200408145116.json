@@ -1,0 +1,19 @@
+[
+    {
+        "ID": "12",
+        "TEACHER_NAME": "宋文",
+        "TEACHER_COLLEGE": "计算机学院",
+        "TEACHER_AVATOR": "",
+        "COURSE_ID": "010",
+        "COURSE_NAME": "计算组成原理",
+        "COURSE_CREDIT": "3",
+        "COURSE_ROOM": "3-301",
+        "COURSE_IMAGE": "",
+        "COURSE_NUMBER": "35",
+        "COURSE_START":"第一周",
+        "COURSE_TESTTIME":"第十六周",
+        "COURSE_COUNT": "",
+        "PICTURE_PATH": ""
+    }
+    
+]

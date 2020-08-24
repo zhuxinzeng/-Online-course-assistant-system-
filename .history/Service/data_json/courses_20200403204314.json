@@ -1,0 +1,17 @@
+[
+    {
+        "ID": "10",
+        "TEACHER_NAME": "吴刚",
+        "TEACHER_COLLEGE": "计算机学院",
+        "TEACHER_AVATOR": "",
+        "COURSE_ID": "010",
+        "COURSE_NAME": "Java",
+        "COURSE_CREDIT": "3",
+        "COURSE_ROOM": "3-301",
+        "COURSE_IMAGE": "",
+        "COURSE_NUMBER": "65",
+        "COURSE_COUNT": "",
+        "PICTURE_PATH": ""
+    }
+    
+]

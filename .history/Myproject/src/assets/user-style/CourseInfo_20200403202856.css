@@ -1,0 +1,48 @@
+.CI-container {
+  margin: 30px;
+  width: 95%;
+  min-width: 900px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.CI-container .classlist {
+  display: flex;
+  align-content:space-around;
+  flex-wrap:wrap;
+ 
+}
+
+.CI-container .classlist .listrowspace{
+   margin-left: 15%;
+   border: 1px solid red;
+}
+.CI-container .footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 860px;
+  width: 90%;
+  height: 60px;
+
+}
+
+.CI-container .footer .pagination {
+  display: flex;
+}
+
+.CI-drawerinfo {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+
+}
+
+.CI-drawerinfo span {
+  font-size: 18px;
+  margin-top: 45px;
+}
+.CI-drawerinfo i{
+    font-size: 18px;
+}

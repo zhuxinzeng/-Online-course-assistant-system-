@@ -1,0 +1,13 @@
+.KN-container{
+    width: 95%;
+    min-width: 1000px;
+    margin:30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.KN-container section{
+    width: 97%;
+    height: 240px;
+  
+    border: 1px solid red;
+}

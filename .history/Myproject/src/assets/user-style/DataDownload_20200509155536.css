@@ -1,0 +1,40 @@
+.DD-container {
+  width: 95%;
+  min-width: 900px;
+  margin: 30px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.DD-container h3{
+    margin-top: 5px;
+    margin-left: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.DD-container i{
+    cursor: pointer;
+}
+.DD-container span{
+    margin-left: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.DD-container .content{
+    display: flex;
+    flex-wrap: wrap; 
+     
+}
+.DD-container .rowdata{
+    width: 20%;
+    height: 40px;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 5px;
+    box-shadow: 0 0 1px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgb(253, 251, 251);
+}
+
+
+
+

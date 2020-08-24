@@ -1,0 +1,54 @@
+.BA-container {
+  margin: 30px;
+  width: 95%;
+  min-width: 900px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.BA-nav {
+
+  width: 100%;
+  height: 250px;
+  border: 1px solid #e0dede;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.BA-nav .nav-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+}
+
+.BA-nav img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+}
+
+.BA-tabs .grade {
+  width: 600px;
+  height: 45px;
+  margin-left: 32%;
+  margin-top: 45px;
+
+
+}
+
+.BA-tabs .grade span {
+  margin-left: 60px;
+  font-family: 'Courier New',
+    Courier,
+    monospace;
+    color: black;
+
+}
+
+.BA-tabs .grade .rate {
+  margin-left: 60px;
+}

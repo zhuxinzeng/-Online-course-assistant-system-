@@ -1,0 +1,23 @@
+
+.side-nav {
+  display: flex;
+  width: 100%;
+  height: 900px;
+}
+.side-nav .combination{
+   background:#ffffff;
+    border: 2px solid #e8e8e8;
+}
+/*ant-design-vue格式修改*/
+.side-nav a {
+  color: #575050;
+  text-decoration-line: none;
+}
+
+.side-nav .ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+border: 1px solid #ffffff;
+
+}
+

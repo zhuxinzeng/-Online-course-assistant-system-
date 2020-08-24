@@ -1,0 +1,50 @@
+.Register {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #FAFAFA;
+  min-width: 1200px;
+  height: 1000px;
+
+}
+
+.Register .R-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+
+.Register .R-form {
+  margin: auto;
+  margin-top: -20px;
+  padding: 60px;
+  width: 550px;
+  height: 550px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px;
+}
+
+
+.Register .R-form p {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+
+
+}
+
+.Register .R-form .Form {
+  margin-left: 80px;
+  justify-content: center;
+
+}
+
+.Register .ant-form label {
+  font-size: 12px;
+}

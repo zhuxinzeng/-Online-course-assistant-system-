@@ -1,0 +1,23 @@
+.DD-container {
+  width: 95%;
+  min-width: 900px;
+  margin: 30px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.DD-container  .top{
+    height: 32%;
+    border-bottom:1px solid rgb(180, 176, 176);
+}
+.DD-container  .center{
+    height: 34%;
+    border-bottom:1px solid grey;
+}
+
+.DD-container  .bottom{
+    height: 33%;
+ 
+}
+
+
+

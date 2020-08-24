@@ -1,0 +1,62 @@
+.KN-container {
+  width: 95%;
+  min-width: 1000px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.KN-container section {
+  width: 98%;
+  height: 200px;
+  margin:0 auto;
+  border: 1px solid #d6d5d5;
+}
+
+.KN-container section h2 {
+  margin-left: 2%;
+  margin-top: 10px;
+}
+
+.KN-container section .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.KN-container section .list .ant-radio-button-wrapper{
+  margin-left: 5%;
+  border: 1px solid red;
+}
+.KN-container section .list a{
+  font-size: 15px;
+  margin-left: 18%;
+
+}
+.KN-container section .list .title{
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: -2%;
+    
+}
+
+.KN-container section .list .progress {
+  width: 430%;
+  min-width: 200px;
+  height: 35px;
+  margin-top: 15px;
+ border-radius: 10px;;
+  border: 1px solid #d6d5d5;
+}
+.KN-container section .list .two{
+    width: 15%;
+  min-width: 200px;
+  height: 35px;
+  margin-top: 35px;
+ border-radius: 10px;;
+  border: 1px solid #d6d5d5;
+}
+.KN-container section .list .progress:hover{
+
+    transform: scale(1.05);
+}
